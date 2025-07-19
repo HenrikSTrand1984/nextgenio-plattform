@@ -1,56 +1,65 @@
-# 📁 Admin / Templates
+# 📘 README – Maler og Templates
 
-**Dokument-ID:** NG-ADMIN-TEMPLATES-README-0001  
-**Versjon:** 1.0  
-**Status:** Aktiv  
-**Dato:** 2025-07-19  
-**Dokumenteier:** Henrik Strand – Kvalitetsleder, NextGenio  
-**Plassering GitHub:** /admin/templates/README.md  
-**Plassering Dropbox:** /NextGenio-plattform-03-Company-Operations-01-Org-Structure-and-Roles/admin/templates/README.md  
+| Felt                | Innhold                                                          |
+|---------------------|------------------------------------------------------------------|
+| **Dokument-ID**     | NG-GOV-TEMPLATES-README-0001                                     |
+| **Versjon**         | 1.0                                                              |
+| **Status**          | Aktiv                                                            |
+| **Dato**            | 2025-07-19                                                       |
+| **Eier**            | Henrik Strand – Kvalitetsleder                                   |
+| **Plassering GitHub** | `/admin/templates/README.md`                                  |
+| **Plassering Dropbox** | `/NextGenio-plattform-09-Documetations-01-Documentstructure/templates/README.md` |
 
 ---
 
 ## 🎯 Formål
 
-Denne mappen inneholder **standardiserte maler** som brukes i NextGenio for å sikre **ensartet dokumentasjon, struktur og kvalitet** på tvers av prosjekter og dokumenttyper.
+Denne mappen inneholder alle malfiler som benyttes i dokumentasjon, metodebeskrivelser, agentoppsett og kvalitetsstyring i NextGenio.  
+Målet er å sikre at all dokumentasjon produseres konsistent, gjenkjennelig og i henhold til organisasjonens policyer og ISO-standarder.
 
 ---
 
-## 📦 Innhold
+## 🧱 Innhold i mappen
 
-| Filnavn                      | Beskrivelse                                              |
-|-----------------------------|----------------------------------------------------------|
-| `readme_template.md`         | Mal for README.md i rotmapper og hovedprosjekter         |
-| `readme_mappe_template.md`   | Mal for README.md i undermapper                           |
-| `readme_agent_template.md`   | Mal for README.md for AI-agenter                          |
-| `metodebeskrivelser_templates.md` | Maler for metodebeskrivelser og studier                  |
-| `dokumentpolicy_template.md` | Mal for dokumentpolicy og styringsdokumenter             |
-| [andre maler]                | [beskrivelse av eventuelle andre maler]                   |
-
----
-
-## 🧩 Bruk og ansvar
-
-- Malene skal brukes som **utgangspunkt** for alle nye dokumenter innen NextGenio.  
-- Hver mal må **tilpasses det aktuelle prosjektet eller dokumentets kontekst**.  
-- **Henrik Strand – Kvalitetsleder** har det overordnede ansvaret for vedlikehold og oppdatering av disse malene.  
-- Endringer i malene skal gjøres med **revisjon, godkjenning og versjonskontroll** i henhold til NextGenio sine dokumentrutiner.  
+| Filnavn | Beskrivelse |
+|---------|-------------|
+| `readme_template.md` | Mal for toppnivå `README.md` i prosjekter og repositorier |
+| `readme_mappe_template.md` | Mal for mapper under `admin/`, `docs/`, `scripts/` osv. |
+| `readme_agent_template.md` | Mal for hver AI-agent sin dokumentasjon |
+| `versjonslogg_template.yaml` | Mal for YAML-versjonshistorikk og endringslogg |
+| `metodebeskrivelser_templates.md` | Mal for metode- og rammeverksbeskrivelser |
+| `metadata_template.yaml` *(planlagt)* | YAML-mal for dokumentmetadata og systemintegrasjon |
+| `README.md` | Dette dokumentet – oversikt og formål for `templates/` |
 
 ---
 
-## 📂 Plassering og kontroll
+## 🧾 Relevante referanser
 
-| Felt           | Innhold                                                  |
-|----------------|----------------------------------------------------------|
-| GitHub         | `/admin/templates/`                                      |
-| Dropbox / SharePoint | `/NextGenio-plattform-03-Company-Operations-01-Org-Structure-and-Roles/admin/templates/` |
-| Versjonslogg   | Versjonsføres i `versjonslogg.yaml` og eventuelt separat logg |
-
----
-
-🛡️ Alle dokumenter som opprettes ut fra disse malene må følge NextGenio sine krav til dokumentstyring, inkludert [readme_policy.md](../governance/readme_policy.md) og øvrige relevante policyer.
+- [`readme_policy.md`](../governance/readme_policy.md)
+- [`dokumentpolicy.md`](../governance/dokumentpolicy.md)
+- [`dokumentstruktur_id_konvensjon.md`](../governance/dokumentstruktur/dokumentstruktur_id_konvensjon.md)
+- ISO 15489, ISO 9001, ISO 26514
 
 ---
 
-*Dokumentet er generert og vedlikeholdt i NextGenio-plattformen.*  
+## 🧠 Bruksområder
 
+- Brukes ved opprettelse av nye prosjektmapper og dokumenter
+- Skal versjonsstyres i `versjonslogg.yaml`
+- Grunnlag for malgenerering i Supabase-integrasjoner og AI-agenter
+
+---
+
+## 📄 Dokumentkontroll
+
+| Felt              | Innhold |
+|-------------------|---------|
+| **Dokument-ID**   | NG-GOV-TEMPLATES-README-0001 |
+| **Versjon**       | 1.0 |
+| **Status**        | Aktiv |
+| **Opprettet**     | 2025-07-19 |
+| **Sist revidert** | 2025-07-19 |
+| **Godkjent dato** | 2025-07-19 |
+| **Dokumenteier**  | Henrik Strand – Kvalitetsleder |
+| **Godkjent av**   | Henrik Strand & AI Assistant |
+| **Logg**          | Registrert i `versjonslogg.yaml` og Supabase-autentisert |
