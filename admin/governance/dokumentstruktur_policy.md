@@ -1,7 +1,7 @@
-# 📘 Policy: Dokumentstruktur og mappestandard i NextGenio
+# 📘 Policy: Dokumentstruktur i NextGenio-plattformen
 
 **Dokument-ID:** NG-GOV-POLICY-STRUKTUR-0001  
-**Versjon:** 1.0  
+**Versjon:** 1.1  
 **Status:** Aktiv  
 **Dato:** 2025-07-19  
 **Dokumenteier:** Henrik Strand – Kvalitetsleder, NextGenio  
@@ -12,87 +12,105 @@
 
 ## 🎯 Formål
 
-Definere **standardisert mappestruktur og dokumentplassering** for alle prosjekter, repositorier og områder i NextGenio. Dette skal sikre **etterprøvbarhet, gjenfinning, kontroll og kontinuitet** i hele organisasjonens informasjonsforvaltning – i tråd med ISO 15489, ISO 30301 og ISO 27001.
+Denne policyen definerer **standardisert dokument- og mappestruktur** for alle repositorier og områder i NextGenio-plattformen. Målet er å sikre:
+
+- Etterprøvbarhet og kvalitet i dokumentasjon
+- Sammenheng mellom GitHub, Dropbox og SharePoint
+- Sporbarhet iht. ISO 15489, 30301 og 27001
+- Klar versjonskontroll og eierskap
 
 ---
 
 ## 📁 Strukturprinsipper
 
-| Prinsipp | Beskrivelse |
-|---------|-------------|
-| **Modulær struktur** | Hver mappe skal ha klart avgrenset formål og funksjon |
-| **Dokument-ID og metadata** | Alle styrende dokumenter skal ha ID, versjon, eier, dato og status |
-| **Eierskap og RACI** | Alle mapper og dokumenter skal ha definert eier |
-| **To lagringssteder** | Alt lagres både i GitHub og Dropbox/SharePoint |
-| **README.md i hver mappe** | Forklarer innhold, formål, eier og struktur |
+| Prinsipp                      | Beskrivelse |
+|------------------------------|-------------|
+| 📦 **Modulær struktur**       | Alle mapper har tydelig funksjon og begrenset omfang |
+| 🧠 **README.md obligatorisk** | Forklarer struktur, eierskap og formål |
+| 🆔 **Metadata på dokumenter** | Dokument-ID, versjon, status, eier, dato |
+| 🧾 **Versjonslogg**           | Endringer logges i `versjonslogg.yaml` |
+| 🔁 **Dobbel lagring**         | Alt lagres i GitHub + Dropbox/SharePoint |
+| 🧱 **Standard maler**         | Bruk av `readme_mappe_template.md` og tilhørende maler |
 
 ---
 
-## 🗂️ Mappetyper og konvensjon
+## 📚 Formatkrav og filtyper
 
-| Mappenavn | Formål og innhold | README-mal |
-|-----------|-------------------|------------|
-| `admin/` | Governance, policy, standarder og interne styringsfiler | `readme_mappe_template.md` |
-| `docs/` | Arkitektur, diagrammer, dokumentasjon og forklaringer | `readme_mappe_template.md` |
-| `scripts/` | Kode og logikk for agenter, API-er, test og databehandling | `readme_mappe_template.md` |
-| `guides/` | Brukerveiledninger og forklaringer (eks: Supabase, Jenkins) | `readme_mappe_template.md` |
-| `agents/` | Hver AI-agent med egen struktur og README | `readme_agent_template.md` |
-| `output/` | Eksporterte rapporter, diagrammer, word-filer etc. | Enkel README |
-| `integrations/` | Oversikt over integrasjoner (ikke kode) | `readme_mappe_template.md` |
+Se full oversikt i vedlegg: `definisjoner_inkl_vedlegg.md`.
+
+Eksempler:
+- `.py`, `.js`, `.yaml`, `.md`, `.pdf`, `.mmd`, `.drawio`, `.schema`, `.json`
+- `.env.example`, `Dockerfile`, `docker-compose.yml`
+
+Se også: `formatkrav_dokumentasjon_vs_kode.md` for detaljert tabell.
 
 ---
 
-## 🧱 Strukturkrav i mapper
+## 📂 Mappetyper og konvensjoner
 
-Alle hovedmapper skal inneholde:
+| Mappe           | Innhold og hensikt | Mal |
+|------------------|--------------------|------|
+| `admin/`         | Governance, policy, standarder | `readme_mappe_template.md` |
+| `docs/`          | Arkitektur, diagrammer og dokumentasjon | `readme_mappe_template.md` |
+| `guides/`        | Brukerveiledninger og forklaringer | `readme_mappe_template.md` |
+| `scripts/`       | Agentkode, API, test, utils | `readme_mappe_template.md` |
+| `agents/`        | Hver AI-agent med egen struktur | `readme_agent_template.md` |
+| `output/`        | Eksporterte rapporter og filer | Enkel README |
+| `integrations/`  | Systemoversikt og eksterne koblinger | `readme_mappe_template.md` |
+| `devcontainer/`  | Miljøoppsett og kodeutvikling | `readme_mappe_template.md` |
 
-- `README.md`
-- Klar rollefordeling (eier og ansvar)
-- Submapper med klart navngivingsmønster (små bokstaver, engelsk)
-- Bruk av `versjonslogg.yaml` for kritiske dokumenter
-- Koblede referanser til relevante policyer og metoder
+---
+
+## 🧱 Krav per mappe
+
+- **README.md**: Forklarer innhold og eier
+- **Eier**: Definert person (CPO Henrik Strand til standard)
+- **Filstruktur**: Små bokstaver, engelsk navn, ingen mellomrom
+- **Versjonslogg**: Bruk `versjonslogg.yaml` ved endringer
+- **Referanser**: Lenker til policyer og maler
 
 ---
 
 ## 🛡️ Forvaltningspraksis
 
-- Strukturendringer skal godkjennes av Kvalitetsleder
-- Nye mapper skal alltid vurderes i lys av eksisterende struktur
-- ISO 30301 benyttes som styrende rammeverk for informasjonsstyring
-- Dropbox-/SharePoint-struktur skal speile GitHub-struktur, med justert mappenavn der nødvendig
+- Strukturendringer skal godkjennes av **Kvalitetsleder**
+- Nye mapper skal vurderes ift. eksisterende standarder
+- All dokumentasjon skal følge **ISO 15489, 30301 og 27001**
+- Dokument-ID-er skal følge `NG-GOV-*`-konvensjon
 
 ---
 
 ## 📚 Relaterte dokumenter
 
-- `/admin/governance/readme_policy.md`  
-- `/admin/governance/dokumentpolicy.md`  
-- `/admin/standarder/lagringsstandarder.md`  
-- `/admin/governance/versjonslogg.yaml`  
-- `/admin/templates/readme_mappe_template.md`  
-- ISO 15489, ISO 30301, ISO 27001
+- `/admin/governance/readme_policy.md`
+- `/admin/governance/dokumentpolicy.md`
+- `/admin/governance/versjonslogg.yaml`
+- `/admin/standarder/lagringsstandarder.md`
+- `/admin/templates/readme_mappe_template.md`
+- `definisjoner_inkl_vedlegg.md`
+- `formatkrav_dokumentasjon_vs_kode.md`
 
 ---
 
 ## 📄 Dokumentkontroll
 
-| Felt | Innhold |
-|------|---------|
-| **Dokument-ID** | NG-GOV-POLICY-STRUKTUR-0001 |
-| **Versjon** | 1.0 |
-| **Status** | Aktiv |
-| **Opprettet** | 2025-07-19 |
+| Felt              | Innhold |
+|-------------------|---------|
+| **Dokument-ID**   | NG-GOV-POLICY-STRUKTUR-0001 |
+| **Versjon**       | 1.1 |
+| **Status**        | Aktiv |
+| **Opprettet**     | 2025-07-19 |
 | **Sist revidert** | 2025-07-19 |
 | **Godkjent dato** | 2025-07-19 |
-| **Dokumenteier** | Henrik Strand – Kvalitetsleder, NextGenio |
-| **Godkjent av** | Henrik Strand & AI Assistant |
-| **Logg** | Registrert i `versjonslogg.yaml` og Supabase-autentisert |
+| **Dokumenteier**  | Henrik Strand – Kvalitetsleder, NextGenio |
+| **Godkjent av**   | Henrik Strand & AI Assistant |
+| **Logg**          | Registrert i `versjonslogg.yaml` og Supabase-autentisert |
 
 ---
 
-## 📂 Plassering
+## 🌐 Plassering
 
-| Miljø | Sti |
-|-------|-----|
-| **GitHub** | `/admin/governance/dokumentstruktur_policy.md` |
-| **Dropbox / SharePoint / OneDrive** | `/NextGenio-plattform-09-Documetations-01-Documentstructure/dokumentstruktur_policy.md` |
+| Miljø        | Sti |
+|--------------|-----|
+| **GitHub**   | `/admin/governance/dokumentstruktur_policy.md` |
+| **Dropbox**  | `/NextGenio-plattform-09-Documetations-01-Documentstructure/dokumentstruktur_policy.md` |
