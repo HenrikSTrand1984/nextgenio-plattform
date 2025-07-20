@@ -48,6 +48,23 @@ Alle hovedmapper i repoet skal ha **toppreffiks (00–99)** etter funksjon:
 | `10_experiments/`| Forsknings- og prototypearbeid                |
 
 > Nye mapper skal følge samme nummereringslogikk for konsistens og sortering.
+...
+
+## 🔢 Retningslinjer for nummerering av undermapper
+
+For å balansere struktur og fleksibilitet benyttes en hybrid tilnærming til nummerering:
+
+| Bruk              | Prinsipp                                                                 |
+|-------------------|--------------------------------------------------------------------------|
+| ✅ Nummerering     | Brukes i mapper der struktur, rekkefølge eller ISO-kontroll er viktig (f.eks. `00_admin/`, `02_docs/`, `04_quality_system/`) |
+| ❌ Ikke nummerering | Brukes i mapper med dynamisk eller teknisk karakter (f.eks. `01_devops/`, `03_integrations/`, `05_output/`) |
+
+Alle nummererte mapper skal ha prefiks `01_`, `02_` osv. for å sikre sortering og etterprøvbarhet.
+
+Ved tvil skal kvalitetsleder konsulteres.
+
+## 🧭 Bestemmelser
+...
 
 ---
 
