@@ -1,0 +1,25 @@
+# 📋 Central Audit Log (auto-generated structure)
+# All audits performed under ISO 9001:2015 clause 9.2
+
+last_updated: 2025-07-20
+
+audits:
+  - id: AUD-2025-0001
+    area: Document Control
+    date: 2025-06-15
+    auditor: Henrik Strand
+    status: Closed
+    findings:
+      - id: FND-001
+        type: Minor NC
+        resolved: true
+
+  - id: AUD-2025-0002
+    area: AI Agent Quality Handling
+    date: 2025-07-10
+    auditor: Quality Assistant Agent
+    status: Open
+    findings:
+      - id: FND-002
+        type: OFI
+        resolved: false
