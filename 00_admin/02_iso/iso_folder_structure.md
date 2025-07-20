@@ -4,7 +4,7 @@
 **Versjon:** 1.0  
 **Status:** Aktiv  
 **Dato:** 2025-07-20  
-**Plassering:** `/00_admin/02_iso/README.md`  
+**Plassering:** `/00_admin/02_iso/iso_folder_structure.md`  
 **Dropbox:** `NextGenio-plattform/05-ISO-Standards/`  
 **Eier:** Henrik Strand – Kvalitetsleder
 
