@@ -1,0 +1,16 @@
+# 💡 Improvement Log – ISO 9001:2015 Clause 10.3
+
+last_updated: 2025-07-20
+
+improvements:
+  - id: IMP-2025-0001
+    area: Audit Process
+    suggestion: Implement digital checklist with Supabase logging
+    proposed_by: Quality Assistant Agent
+    status: Under Review
+
+  - id: IMP-2025-0002
+    area: Agent Training
+    suggestion: Add performance thresholds for agent logic retraining
+    proposed_by: Henrik Strand
+    status: Approved
