@@ -1,60 +1,58 @@
-# 🧪 Metoder – `04_methods/`
+# 📘 README.md – Mappe: 04_methods
 
-**Dokument-ID:** NG-MET-README-0001  
-**Versjon:** 1.0  
-**Status:** Aktiv  
-**Dato:** 2025-07-20  
-**Plassering:** `/00_admin/04_methods/README.md`  
-**Dropbox / SharePoint:** `NextGenio-plattform/00_Admin/04_Methods/`  
-**Eier:** Henrik Strand – Kvalitetsleder
+| Felt             | Innhold                                                 |
+|------------------|----------------------------------------------------------|
+| **Dokument-ID**  | NG-MET-README-0001                                       |
+| **Versjon**      | 1.1                                                      |
+| **Status**       | Aktiv                                                    |
+| **Dato**         | 2025-07-21                                               |
+| **Plassering**   | `/00_admin/04_methods/README.md`                         |
+| **Eier**         | Henrik Strand / Kvalitetsleder                           |
 
 ---
 
 ## 🎯 Formål
 
-Denne mappen inneholder et bibliotek av **anvendbare metoder** som brukes i NextGenio til analyse, forbedring, beslutningsstøtte og kvalitetsarbeid.
-
-Metodene kan være:
-- Strategiske (f.eks. SWOT)
-- Operasjonelle (f.eks. 5 Whys, PDCA)
-- Innovasjonsrettede (f.eks. Lean Startup)
-- Analysebaserte (f.eks. rotårsaksanalyse, impact-mapping)
+Denne mappen inneholder praktiske og analytiske metoder som benyttes i NextGenio-prosjektet for problemløsning, strategiarbeid, beslutningsstøtte og prosessforbedring. Metodene støtter både operasjonell effektivitet og strategisk utvikling, og danner grunnlag for agentintelligens og strukturert forbedringsarbeid.
 
 ---
 
-## 📂 Innhold og filstruktur
+## 📁 Undermapper i `04_methods/`
 
-| Filnavn               | Beskrivelse                              |
-|------------------------|------------------------------------------|
-| `5whys.md`             | Rotårsaksanalyse via iterative spørsmål |
-| `swot_analysis.md`     | Strategisk vurdering av styrker og trusler |
-| `lean_startup.md`      | Innovasjon og MVP-metodikk              |
-| `...`                  | Flere metoder kan dokumenteres her      |
-
----
-
-## 🧠 Bruk i NextGenio
-
-- Brukes i workshops, forbedringsarbeid og beslutningsprosesser
-- AI-agenter kan hente ut forslag til metoder basert på kontekst
-- Kobles til prosedyrer, maler og analyseverktøy
+| Mappe                         | Formål |
+|-------------------------------|--------|
+| `01_problem_solving/`         | Metoder for problemløsning, rotårsaksanalyse og læring, som f.eks. 5 Whys, Ishikawa-diagram, A3 og FMEA. |
+| `02_strategic_analysis/`      | Strategiske rammeverk som SWOT, PESTEL, GAP-analyse, Porter's Five Forces og scenarioanalyse. |
+| `03_process_improvement/`     | Metoder for kontinuerlig forbedring og optimalisering: Lean, Six Sigma, PDCA, Kaizen og verdistrømsanalyse. |
+| `04_decision_support/`        | Verktøy for beslutningstaking, vurderingsmatriser, MCDA, cost-benefit og risikoanalyse. |
+| `05_templates/`               | Maler og strukturfiler for de ulike metodene – til bruk i analyse, dokumentasjon og agenttrening. |
 
 ---
 
-## 📎 Samspill med andre områder
+## 🧠 Prinsipper
 
-- Dokumentpolicy definerer hvordan metodedokumenter struktureres
-- Governance refererer til bruk av metoder i styring og forbedring
-- Rammeverk og metoder brukes ofte i kombinasjon
+- Alle metoder skal være:
+  - Knyttet til ett eller flere praktiske eksempler (GAP, prosjekt, agent)
+  - Tydelig dokumentert med formål, fremgangsmåte og brukstilfeller
+  - Evaluert for ISO-relevans der aktuelt (f.eks. kvalitetsstyring)
+
+---
+
+## 🔗 Relaterte dokumenter
+
+- `mappepolicy.md`  
+- `dokumentpolicy.md`  
+- Maler i `05_templates/`  
+- `methods_register.md` (under arbeid)
 
 ---
 
 ## 📄 Dokumentkontroll
 
-| Felt             | Innhold                                       |
-|------------------|-----------------------------------------------|
-| Opprettet av     | Henrik Strand                                 |
-| Godkjent av      | Henrik Strand, [navn 2]                       |
-| Revidert dato    | 2025-07-20                                    |
-| Versjonslogg     | Registrert i `versionslogg.yaml`              |
-
+| Felt             | Innhold                      |
+|------------------|-------------------------------|
+| Opprettet av     | Henrik Strand                 |
+| Revidert dato    | 2025-07-21                    |
+| Versjon          | 1.1                           |
+| Status           | Aktiv                         |
+| Gjelder fra      | 2025-07-21                    |
