@@ -1,54 +1,60 @@
-# 🧭 Governance – Styring og kontroll i NextGenio
+# 📘 README.md – Mappe: 01_governance
 
-**Dokument-ID:** NG-GOV-README-0001  
-**Versjon:** 1.0  
-**Status:** Aktiv  
-**Dato:** 2025-07-20  
-**Plassering:** `/00_admin/01_governance/`  
-**Dropbox / SharePoint:** `NextGenio-plattform/00_Admin/01_Governance/`  
-**Eier:** Henrik Strand – Kvalitetsleder
+| Felt             | Innhold                                               |
+|------------------|--------------------------------------------------------|
+| **Dokument-ID**  | NG-GOV-README-0001                                     |
+| **Versjon**      | 1.1                                                    |
+| **Status**       | Aktiv                                                  |
+| **Dato**         | 2025-07-21                                             |
+| **Plassering**   | `/00_admin/01_governance/README.md`                    |
+| **Eier**         | Henrik Strand / Kvalitetsleder                         |
 
 ---
 
 ## 🎯 Formål
 
-Denne mappen inneholder all dokumentasjon relatert til **governance** i NextGenio – det vil si struktur, roller, ansvar, policyer og prinsipper for hvordan plattformen styres og etterlever interne og eksterne krav. Innholdet bygger på anerkjente internasjonale standarder og rammeverk som ISO 37000, OECD, COSO ERM og ISO/IEC 38500.
-
-Governance-dokumentasjonen sikrer:
-
-- 📌 Et helhetlig og ansvarlig styringssystem
-- 📄 Dokumentert fordeling av ansvar og myndighet
-- ✅ Etterlevelse av relevante ISO-standarder og interne policyer
-- 🤖 Forankring av AI-agenters roller, dokumenttilgang og compliance
+Denne mappen inneholder alle styringsrelaterte dokumenter, rammeverk, roller og policyer for NextGenio-plattformen.  
+Innholdet utgjør kjernen i organisasjonens **governance-modell**, og danner grunnlag for ISO-samsvar, agentansvar og beslutningskontroll.
 
 ---
 
-## 🗂️ Innhold og filstruktur
+## 📁 Undermapper i `01_governance/`
 
-| Fil / Mappe                                       | Beskrivelse |
-|--------------------------------------------------|-------------|
-| [`governance_frameworks_summary.md`](./governance_frameworks_summary.md) | Oppsummering av styringsrammeverk (ISO 37000, COSO, OECD, IT Gov) |
-| [`policy_register.md`](./policy_register.md)     | Register over styrende policyer og deres eierskap |
-| [`dokumentpolicy.md`](./dokumentpolicy.md)       | Prinsipper for dokumentnavn, versjon, tilgang og eierskap |
-| [`godkjenning_policy.md`](./godkjenning_policy.md) | Regler for dokumentgodkjenning og signeringsprosess |
-| [`02_rollebeskrivelser/`](./02_rollebeskrivelser/) | Inneholder definerte rollebeskrivelser brukt i governance og RACI |
+| Mappe                 | Formål |
+|-----------------------|--------|
+| `01_frameworks/`      | Styringsrammeverk som benyttes i NextGenio, f.eks. RACI, 7S, TOGAF Governance og Policy Cycles. |
+| `02_policies/`        | Alle overordnede styringsdokumenter: dokumentpolicy, godkjenningsregler, mappestrukturpolicy osv. |
+| `03_policy_register/` | Register som dokumenterer og versjonerer alle policyfiler i bruk. Brukes for sporbarhet og oversikt. |
+| `04_role_descriptions/` | Formelle beskrivelser av roller og ansvar (f.eks. kvalitetsleder, systemansvarlig, complianceansvarlig). |
+| `05_branding/`        | Retningslinjer for merkevarebruk, logoer, grafisk profil og offisiell visuell identitet. |
 
 ---
 
-## 🔗 Relaterte mapper
+## 🧩 Relaterte prinsipper
 
-- [📂 ISO-standarder](../02_iso/) – Formelle krav og systemstandarder
-- [📂 Frameworks](../03_frameworks/) – Rammeverk som støtter governance
-- [📂 Methods](../04_methods/) – Metoder for analyse, forbedring og styring
+- 📎 Alle mapper følger `mappepolicy.md` (struktur, språk, nummerering)
+- 📄 Alle undermapper skal ha egen `README.md`
+- 🔐 Roller og policyer skal kobles mot agenttilgang (RACI)
+
+---
+
+## 🧭 Tilhørende dokumenter
+
+- `mappepolicy.md`  
+- `dokumentpolicy.md`  
+- `godkjenning_policy.md`  
+- `policy_register.md`  
+- Rollefiler i `04_role_descriptions/`  
+- Grafiske retningslinjer i `05_branding/`
 
 ---
 
 ## 📄 Dokumentkontroll
 
-| Felt             | Innhold                                        |
-|------------------|-------------------------------------------------|
-| Opprettet av     | Henrik Strand                                   |
-| Godkjent av      | Henrik Strand, [navn 2]                         |
-| Revidert dato    | 2025-07-20                                      |
-| Versjonslogg     | Registrert i `versionslogg.yaml`               |
-
+| Felt             | Innhold                      |
+|------------------|-------------------------------|
+| Opprettet av     | Henrik Strand                 |
+| Revidert dato    | 2025-07-21                    |
+| Versjon          | 1.1                           |
+| Status           | Aktiv                         |
+| Gjelder fra      | 2025-07-21                    |
