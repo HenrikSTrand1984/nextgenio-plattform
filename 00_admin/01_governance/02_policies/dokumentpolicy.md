@@ -4,7 +4,7 @@
 **Versjon:** 1.2  
 **Status:** Aktiv  
 **Dato:** 2025-07-21  
-**Plassering:** `/00_admin/01_governance/dokumentpolicy.md`  
+**Plassering:** `/00_admin/01_governance/02_policies/dokumentpolicy.md`  
 **Dropbox / SharePoint:** `NextGenio-plattform/00_Admin/01_Governance/`  
 **Eier:** Henrik Strand – Kvalitetsleder
 
