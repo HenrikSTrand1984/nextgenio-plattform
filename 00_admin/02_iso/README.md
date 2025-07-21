@@ -1,53 +1,60 @@
-# 📘 ISO-standarder – `02_iso/`
+# 📘 README.md – Mappe: 02_iso
 
-**Dokument-ID:** NG-ISO-README-0001  
-**Versjon:** 1.0  
-**Status:** Aktiv  
-**Dato:** 2025-07-20  
-**Plassering:** `/00_admin/02_iso/README.md`  
-**Dropbox / SharePoint:** `NextGenio-plattform/00_Admin/02_ISO/`  
-**Eier:** Henrik Strand – Kvalitetsleder
+| Felt             | Innhold                                              |
+|------------------|-------------------------------------------------------|
+| **Dokument-ID**  | NG-ISO-README-0001                                    |
+| **Versjon**      | 1.1                                                   |
+| **Status**       | Aktiv                                                 |
+| **Dato**         | 2025-07-21                                            |
+| **Plassering**   | `/00_admin/02_iso/README.md`                          |
+| **Eier**         | Henrik Strand / Kvalitetsleder                        |
 
 ---
 
 ## 🎯 Formål
 
-Denne mappen inneholder sammendrag og dokumentasjon av ISO-standarder som er relevante for NextGenio-plattformen. Formålet er å sikre forståelse og etterlevelse av internasjonale standarder innen kvalitet, sikkerhet, dokumentstyring og informasjonshåndtering.
-
-Standardene gir retningslinjer for:
-- 📄 Dokumentkontroll og struktur (ISO 15489)
-- ✅ Kvalitetsledelse og samsvar (ISO 9001)
-- 🔐 Informasjonssikkerhet (ISO 27001)
-- 📁 Arkiv- og informasjonsforvaltning (ISO 30301)
+Denne mappen forvalter alle dokumenter relatert til ISO-standarder og ISO-tilpasning i NextGenio-plattformen. Den gir grunnlaget for kvalitetssystemet og sikrer samsvar med ISO 9001, 27001, 30301, 15489 og andre relevante standarder.
 
 ---
 
-## 📂 Innhold og filstruktur
+## 📁 Undermapper i `02_iso/`
 
-| Filnavn                  | Beskrivelse                                   |
-|--------------------------|-----------------------------------------------|
-| `iso_9001_summary.md`    | Kvalitetsledelse og krav til dokumentert system |
-| `iso_27001_summary.md`   | Sikkerhet, risikohåndtering og tilgangskontroll |
-| `iso_15489_summary.md`   | Dokumentstyring og arkiveringspraksis         |
-| `iso_register.md`        | Oversikt over ISO-standarder som er i bruk     |
-| `...`                    | Flere ISO-sammendrag og spesifikasjoner        |
+| Mappe                     | Formål |
+|---------------------------|--------|
+| `01_summaries/`           | Forkortede og praktiske sammendrag av hver ISO-standard som benyttes i NextGenio. Brukes til læring, agenttrening og dokumentasjon. |
+| `02_structure_control/`   | Policyer og maler for strukturell kontroll, versjonering og revisjon i tråd med ISO 30301 og 15489. |
+| `03_implementation_logs/` | Logger og sporbarhet for hvordan ISO-krav er implementert i plattformen, inkl. tiltak, ansvar og fremdrift. |
+| `04_templates/`           | Standardmaler og strukturer tilknyttet ISO-dokumentasjon (policy-maler, audit templates, kontrollpunkter). |
+| `05_metadata/`            | Metadata-strukturer for dokumenter i tråd med ISO 15489 og 19475, inkl. YAML-header-formater og krav til identifikasjon. |
 
 ---
 
-## 🧩 Bruk og tilknytning
+## 🔗 Tilhørende standarder
 
-- ISO-sammendrag brukes som referanse i dokumentpolicy, governance og metoder
-- Agentene skal kunne hente strukturert innsikt fra disse filene
-- ISO-registeret brukes til revisjon og etterlevelsesoversikt
+- **ISO 9001:** Kvalitetsledelse og dokumentert informasjon  
+- **ISO 27001:** Informasjonssikkerhet og tilgangskontroll  
+- **ISO 15489:** Records management og dokumentarkitektur  
+- **ISO 30301:** Ledelsessystem for dokumentstyring  
+- **ISO 19475:** Digital dokumentforvaltning og autentisitet
+
+---
+
+## 📎 Relaterte dokumenter
+
+- `mappepolicy.md`  
+- `dokumentpolicy.md`  
+- `versjonslogg.yaml`  
+- Maler i `04_templates/`  
+- Metadata-definisjoner i `05_metadata/`
 
 ---
 
 ## 📄 Dokumentkontroll
 
-| Felt             | Innhold                                       |
-|------------------|-----------------------------------------------|
-| Opprettet av     | Henrik Strand                                 |
-| Godkjent av      | Henrik Strand, [navn 2]                       |
-| Revidert dato    | 2025-07-20                                    |
-| Versjonslogg     | Registrert i `versionslogg.yaml`              |
-
+| Felt             | Innhold                      |
+|------------------|-------------------------------|
+| Opprettet av     | Henrik Strand                 |
+| Revidert dato    | 2025-07-21                    |
+| Versjon          | 1.1                           |
+| Status           | Aktiv                         |
+| Gjelder fra      | 2025-07-21                    |
