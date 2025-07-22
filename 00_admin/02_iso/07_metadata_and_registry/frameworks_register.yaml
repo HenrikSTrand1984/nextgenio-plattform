@@ -1,0 +1,18 @@
+- id: FW-001
+  name: ISO 9001:2015
+  category: Quality Management
+  status: In use
+  linked_processes:
+  - QMS
+  - Project Control
+  owner: Quality Manager
+  location: /02_iso/01_summaries/iso_9001.md
+- id: FW-002
+  name: ISO 27001
+  category: Information Security
+  status: In use
+  linked_processes:
+  - Access Control
+  - Data Storage
+  owner: CISO
+  location: /02_iso/01_summaries/iso_27001.md

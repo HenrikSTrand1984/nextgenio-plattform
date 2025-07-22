@@ -1,0 +1,16 @@
+- role: Quality Manager
+  responsibilities:
+  - Ensure ISO 9001 compliance
+  - Maintain QMS documentation
+  - Lead internal audits
+  linked_standards:
+  - ISO 9001
+  - ISO 30301
+- role: Information Security Officer
+  responsibilities:
+  - Implement ISO 27001 controls
+  - Manage risk assessments
+  - Coordinate incident response
+  linked_standards:
+  - ISO 27001
+  - ISO 27701
